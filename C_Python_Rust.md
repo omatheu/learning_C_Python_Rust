@@ -1,0 +1,3 @@
+- C sempre copia o parâmetro que esta sendo passado, mesmo que isso não seja interessante em casos onde estamos trabalhando com um grande volume dados.
+- Python cria 'automaticamente' as referências na memória (ponteiros) que queremos manipular ao atribuir determinado valor a uma variável.
+- Rust se diferencia das outras duas linguagens citadas, pois possuí o conceito de 'ownership' (proprietário) para as funções que estão manipulando a variável. Além de tipar as variáveis com 'mut' para poder modificar os valores. Se você quiser manipular determinada variável em outra função, você pode 'emprestar' essa variável e usar o 'mut' para falar que aquela variável é mutável.
